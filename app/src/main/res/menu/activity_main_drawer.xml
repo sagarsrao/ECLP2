@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:title="This Week" />
+        <item
+            android:id="@+id/nav_slideshow"
+
+            android:title="This Month" />
+
+    </group>
+
+    <item android:title="Manage Expenses">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Delete All Expenses" />
+            <item
+                android:id="@+id/nav_send"
+
+                android:title="Refresh" />
+        </menu>
+    </item>
+
+</menu>
